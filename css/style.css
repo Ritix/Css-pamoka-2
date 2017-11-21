@@ -1,0 +1,56 @@
+body {
+    background-image: url("../image/1.jpg");
+    background-repeat: repeat-y;
+    background-position: center;
+}
+
+div {
+    box-sizing: border-box;
+}
+
+.container {
+    max-width: 1140px;
+    margin: 100px auto;
+    background-color: rgb(227, 231, 237);
+    box-sizing: border-box;
+    padding: 20px 40px;
+}
+
+.red {
+    background-color: tomato;
+}
+
+.sky-blue {
+    background-color: skyblue;
+}
+
+.border-radius-10 {
+    border-radius: 10px;
+}
+
+.padding-20 {
+    padding: 30px;
+}
+
+.left-container,
+.right-container {
+    width: 48%;
+    font-size: 13px;
+}
+
+.left-container {
+    float: left;
+}
+
+.right-container {
+    float: right;
+}
+
+.clearfix {
+    clear: both;
+}
+
+.text {
+    color: #fff1f3;
+    text-align: justify;
+}
